@@ -28,13 +28,13 @@
     <tr>
         <th>First Name</th>
         <th>Last Name</th>
-        <th>User Name</th>
+        <th>favouriteName</th>
         <th>Email Id</th>
-        <th>Blood Group</th>
-        <th>Age</th>
         <th>Mobile No.</th>
-        <th>Emp Id</th>
-        <th></th>
+        <th>Mobile No.2</th>
+        <th>businessAddress</th>
+        <th>residenceAddress</th>
+        <th>websiteAddress</th>
         <th></th>
         <th></th>
     </tr>
@@ -42,14 +42,11 @@
         <tr>
             <td>${emp.firstName}</td>
             <td>${emp.lastName}</td>
-            <td>${emp.userName}</td>
-            <td>${emp.emailId}</td>
-            <td>${emp.bloodGp}</td>
-            <td>${emp.age}</td>
-            <td>${emp.mobileNo}</td>
-            <td>${emp.empId}</td>
             <td>${emp.surName}</td>
             <td>${emp.favouriteName}</td>
+            <td>${emp.emailId}</td>
+             <td>${emp.mobileNo}</td>
+
             <td>${emp.mobileNo2}</td>
             <td>${emp.businessAddress}</td>
             <td>${emp.residenceAddress}</td>
